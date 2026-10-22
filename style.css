@@ -664,7 +664,7 @@ nav {
     margin-left: 10px;
 } */
 button{
-    margin-right: 7px;
+    margin-right: 0px;
     color: black;
     
 }
@@ -674,19 +674,7 @@ button{
     background-color: lightgray;
     border-radius: 5px;
 }
-.body{
-        overflow-y: hidden;
-        width: 100%;
-        height: auto;
-    }
     footer{
-        width: 100%;
-        height: auto;
-    }
-}
-@media  screen and (max-width:600px) {
-    .body{
-        overflow-y: hidden;
         width: 100%;
         height: auto;
     }
