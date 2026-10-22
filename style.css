@@ -58,10 +58,10 @@ border-top: 20px;
     color: #555555;
     font-size: 14px;
 }
-.logo i{
+/* .logo i{
     color: black;
     margin-left: 30px;
-}
+} */
 nav{
     flex-grow: 1;
     justify-content: center;
@@ -651,14 +651,14 @@ margin-bottom: 0;
     margin-bottom: 0;
 }
 nav {
-    gap:10px ;
+    gap:5px ;
 }
-.logo i{
+/* .logo i{
     color: black;
     margin-left: 10px;
-}
+} */
 button{
-    margin-right: 310px;
+    margin-right: 320px;
     padding-left: 7px;
     color: black;
 }
@@ -668,9 +668,20 @@ button{
     background-color: lightgray;
     border-radius: 5px;
 }
+.body{
+        overflow-y: hidden;
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
 }
-@media  screen and (max-width:30px) {
+@media  screen and (max-width:600px) {
     .body{
         overflow-y: hidden;
+        width: 100%;
+        height: auto;
     }
 }
