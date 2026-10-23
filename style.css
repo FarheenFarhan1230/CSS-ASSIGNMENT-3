@@ -597,6 +597,9 @@ box-sizing: border-box;
 line-height: 1.6;
 overflow-wrap:anywhere;
 }
+.logo{
+    padding-left: 50px;
+}
 }
 
 /* Mobile */
@@ -642,6 +645,7 @@ overflow-wrap:anywhere;
         min-width: 0;
         width: 100%;
         color: black;
+        scroll-behavior: smooth;
     }
 #filterinput{
 margin-bottom: 0;
@@ -677,5 +681,8 @@ button{
     footer{
         width: 100%;
         height: auto;
+    }
+    .body{
+        scroll-behavior: smooth;
     }
 }
